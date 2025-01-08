@@ -57,3 +57,4 @@
 - 11050. 이항 계수 1(파스칼의 삼각형)
 - 28702. FizzBuzz
 - 1181. 단어 정렬(중복제거_set, 람다사용 기준 2개 key=lambda x: (len(x), x), 정렬(quick and bubble))
+- 1436. 영화감독 숌
