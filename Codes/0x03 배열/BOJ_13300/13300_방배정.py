@@ -27,6 +27,7 @@ if __name__ == "__main__":
     student = [[0, 0] for _ in range(6)]
     for i in range(N):
         S, Y = map(int, input().split())
+<<<<<<< HEAD
         #? print(Y, S)
         student[Y-1][S] += 1
     #? print(student)
@@ -34,6 +35,13 @@ if __name__ == "__main__":
     for i in range(6):
         for j in range(2):
             #! 무조건 올림 ceil사용
+=======
+        student[Y-1][S] += 1
+    rooms = 0
+    for i in range(6):
+        for j in range(2):
+            #? 무조건 올림 ceil사용
+>>>>>>> a6fd7ab4db34266f05fdf45cddf6c645109b48ac
             rooms += math.ceil(student[i][j] / K)
     print(rooms)
 
