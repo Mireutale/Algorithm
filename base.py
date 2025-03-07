@@ -12,4 +12,4 @@ lambda함수를 사용해서 input을 sys.stdin.readline().rstrip()으로 대체
 """
 
 if __name__ == "__main__":
-    
+    pass
