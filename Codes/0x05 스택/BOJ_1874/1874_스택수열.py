@@ -42,4 +42,4 @@ if __name__ == "__main__":
         for i in ans:
             print(i)
     else:
-        print("NO")
+        print("NO") 
