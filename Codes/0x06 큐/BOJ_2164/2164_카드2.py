@@ -25,3 +25,4 @@ if __name__ == "__main__":
         queue.popleft()
         queue.append(queue.popleft())
     print(queue.pop())
+    
