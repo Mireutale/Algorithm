@@ -16,39 +16,46 @@ input = lambda: sys.stdin.readline().rstrip()
 현재 값이 더 작은 경우
 stack에 있는 값을 pop하고, 가능한 직사각형의 크기를 재서 max보다 크면 max값을 변경
 
-가능한 직사각형 크기 -> 현재 index에서 stack에 저장된 인덱스를 빼면 크기를 구할 수 있음.
+가능한 직사각형 크기 -> stack의 블럭 높이 * index - 1 - (스택의 마지막 값의 인덱스)
 """
 
 if __name__ == "__main__":
     while True:
         # height[0] = N, height[1:] = 직사각형들의 높이
         input_data: list = list(map(int, input().split()))
-        N = input_data[0]
-        heights = input_data[1:]
-        if N == 0:
+        # 0이 입력되서 종료
+        if input_data[0] == 0:
             break
         
-        if heights:
-            stack: list = []
-            max_area: int = 0
+        stack = []
+        n: int = input_data[0]
+        max_area: int = 0
+        for i in range(1, n+1):
+            if len(stack) == 0:
+                stack.append([input_data[i], i])
+            else:
+                # 스택의 값보다 현재 값이 더 큰 경우 -> 그대로 입력
+                if stack[-1][0] <= input_data[i]:
+                    stack.append([input_data[i], i])
+                # 현재 값이 스택의 값보다 더 작은 경우
+                else:
+                    while stack and stack[-1][0] > input_data[i]:
+                        top = stack.pop()[0]
+                        # 현재 값 보다, 더 낮은 높이의 block이 있었던 경우
+                        if stack:                        
+                            width = i - (stack[-1][1]) -1
+                        # 현재 값이 가장 낮은 높이의 block 인 경우
+                        else:
+                            width = i - 1
+                        max_area = max(max_area, top * width)
+                    stack.append([input_data[i], i])
             
-            # 입력된 직사각형의 높이를 전부 확인하면서 stack에 넣는 작업
-            for i in range(0, N):
-                new_data = heights[i]
-                # 현재 값이 더 작거나 같은 경우
-                while stack and stack[-1][0] > new_data:
-                    max_area = max(max_area, stack[-1][0] * (i - stack[-1][1]))
-                    stack.pop()
-
-                # 그 외의 경우에는 stack에 값 입력
-                stack.append([new_data, i])
-            
-            # stack에 더 넣을 직사각형이 없으므로, 가장 마지막 직사각형의 너비도 추가해서 계산해야 하기 때문에 i에 1을 추가
-            i += 1
-
-            #더 이상 넣을 직사각형이 없는 경우, stack을 전부 비울때 까지 직사각형의 넓이를 계산
-            while stack:
-                max_area = max(max_area, stack[-1][0] * (i - stack[-1][1]))
-                stack.pop()
-
+        # 모든 input값을 확인하고 남은 stack에 있는 값들에서 area를 계산
+        while stack:
+            top = stack.pop()[0]
+            if len(stack) == 0:
+                width = n
+            else:
+                width = n - stack[-1][1]
+            max_area = max(max_area, top * width)
         print(max_area)
