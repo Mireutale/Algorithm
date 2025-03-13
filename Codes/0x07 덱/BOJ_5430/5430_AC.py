@@ -42,9 +42,13 @@ if __name__ == "__main__":
                     print("error")
                     is_error = True
                     break
-        if deck and not is_error:
-            if deck_reversed:
-                deck.reverse()
-                print(f"[{','.join(deck)}]")    
-            else:
-                print(f"[{','.join(deck)}]")
+        if not is_error:
+            if deck: 
+                if deck_reversed:
+                    deck.reverse()
+                    print(f"[{','.join(deck)}]")    
+                else:
+                    print(f"[{','.join(deck)}]")
+            #! n의 범위도 확인해야 함!
+            if len(deck) == 0:
+                print("[]")
