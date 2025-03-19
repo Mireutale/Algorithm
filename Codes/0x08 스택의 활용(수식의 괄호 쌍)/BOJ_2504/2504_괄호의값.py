@@ -1,5 +1,6 @@
 #input을 빠르게 받기 위한 sys 라이브러리 사용
 import sys
+from collections import deque
 input = lambda: sys.stdin.readline().rstrip()
 
 """
@@ -15,7 +16,44 @@ input = lambda: sys.stdin.readline().rstrip()
 ‘()[[]]’ 의 괄호값이 2 + 3*3=11 이므로 ‘(()[[]])’의 괄호값은 2*11=22 이다. 
 그리고 ‘([])’의 값은 2*3=6 이므로 전체 괄호열의 값은 22 + 6 = 28 이다.
 
+temp를 사용해서 값을 저장 -> 시작 괄호마다 temp에 값을 곱함
+시작 괄호 다음에 닫힌 괄호가 나오는 경우 -> result에 temp추가
+닫힌괄호 -> deck에서 시작 괄호 제거하고 temp를 나눠줌
+
+!예외
+시작 괄호만 계속해서 나오는 경우 방지 -> 무조건 덱이 비어있어야 정답
 """
 
 if __name__ == "__main__":
-    pass
+    data = input()
+    deck = deque()
+    temp = 1
+    result = 0
+    is_good = True
+    for i in range(len(data)):
+        if data[i] == '(':
+            deck.append(data[i])
+            temp *= 2
+        elif data[i] == '[':
+            deck.append(data[i])
+            temp *= 3
+        elif data[i] == ')':
+            if not deck or deck[-1] != '(':
+                is_good = False
+                break
+            if data[i - 1] == '(':
+                result += temp
+            deck.pop()
+            temp //= 2
+        elif data[i] == ']':
+            if not deck or deck[-1] != '[':
+                is_good = False
+                break
+            if data[i - 1] == '[':
+                result += temp
+            deck.pop()
+            temp //= 3
+    if not deck and is_good:
+        print(result)
+    else:
+        print(0)
