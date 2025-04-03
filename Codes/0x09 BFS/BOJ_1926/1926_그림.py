@@ -2,7 +2,6 @@
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()
-
 """
 [설계]
 세로 n, 가로 m (1 ≤ n ≤ 500, 1 ≤ m ≤ 500)
@@ -10,8 +9,6 @@ input = lambda: sys.stdin.readline().rstrip()
 그림의 개수와 가장 넓은 그림의 넓이를 출력
 가로, 세로로 연결된 것은 하나의 그림
 대각선은 연결되지 않은 그림
-
-
 """
 
 # 시작점을 x, y로 받아서 주변의 값을 확인하는 함수

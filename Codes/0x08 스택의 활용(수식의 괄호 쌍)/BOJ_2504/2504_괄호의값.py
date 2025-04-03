@@ -41,6 +41,7 @@ if __name__ == "__main__":
             if not deck or deck[-1] != '(':
                 is_good = False
                 break
+            # 이전 괄호가 여는 괄호인 경우 -> 값 추가
             if data[i - 1] == '(':
                 result += temp
             deck.pop()
@@ -49,6 +50,7 @@ if __name__ == "__main__":
             if not deck or deck[-1] != '[':
                 is_good = False
                 break
+            # 이전 괄호가 여는 괄호인 경우 -> 값 추가
             if data[i - 1] == '[':
                 result += temp
             deck.pop()
