@@ -25,6 +25,3 @@ if __name__ == "__main__":
         if i > max_sound[people_order]:
             print(people_order + 1)
             exit()
-
-# commit msg
-# --- 문제풀이_mireutale[25/ / ]
