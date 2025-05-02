@@ -20,6 +20,29 @@ import sys
 input = lambda: sys.stdin.readline().rstrip()
 from collections import deque
 
+def time_and_move(x, k):
+    # * 걸린 시간 출력
+    print(visited[x] - 1)
+    route = [k]
+    # * 걸린 시간 만큼의 경로를 찾기
+    for _ in range(visited[x]-1):
+        route.append(route_recovery[k])
+        k = route_recovery[k]
+    print(*route[::-1])
+
+def bfs(k):
+    while queue:
+        x = queue.popleft()
+        if x == k:
+            time_and_move(x, k)
+        for nx in (x*2, x+1, x-1):
+            # * 범위 내 & 방문하지 않은 점(visited[nx] == 0)인 경우에만 이동
+            if 0 <= nx <= 100000 and not visited[nx]:
+                visited[nx] = visited[x] + 1
+                # * nx로 이동하기전 위치인 x를 저장
+                route_recovery[nx] = x
+                queue.append(nx)
+
 if __name__ == "__main__":
     n, k = map(int, input().split())
     queue = deque()
@@ -30,54 +53,6 @@ if __name__ == "__main__":
     visited = [0] * 100001
     visited[n] = 1
     # * 방문 경로를 위한 리스트
+    # ! 0도 방문 가능한 위치이므로 -1로 초기화 시켜놓아야 함
     route_recovery = [-1] * 100001
-    route_recovery[n] = 0
-    while queue:
-        x = queue.popleft()
-        if x == k:
-            # * 걸린 시간 출력
-            print(visited[x] - 1)
-            route = []
-            while route_recovery[k] != -1:
-                route.append(k)
-                t = route_recovery[k]
-                # * 복구 완료 후, 모두 -1로 초기화
-                route_recovery[k] = -1
-                if t == 0:
-                    break
-                else:
-                    k = t
-            # * 이동경로 출력
-            print(*route[::-1])
-            exit()
-        for nx in (x*2, x+1, x-1):
-            # * 범위 내 & 방문하지 않은 점(visited[nx] == 0)인 경우에만 이동
-            if 0 <= nx <= 100000 and not visited[nx]:
-                visited[nx] = visited[x] + 1
-                # * nx로 이동하기전 위치인 x를 저장
-                route_recovery[nx] = x
-                queue.append(nx)
-
-
-"""
-5 17
-나머지 route_recovery == -1
-visited[5] = 1, route_recovery[5] = 0
-visited[10] = 2, route_recovery[10] = 5
-visited[9] = 3, route_recovery[9] = 10
-visited[18] = 4, route_recovery[18] = 9
-visited[17] = 5, route_recovery[17] = 18
-
-0 0
-
-visited[0] = 1, route_recovery[0] = 0
-
-0 4
-visited[0] = 1, route_recovery[0] = 0
-visited[1] = 2, route_recovery[1] = 0
-visited[2] = 3, route_recovery[2] = 1
-visited[4] = 4, route_recovery[4] = 2
-ans [4, 2, 1]
-"""
-# commit msg
-# --- 문제풀이_mireutale[25/ / ]
+    bfs(k)
