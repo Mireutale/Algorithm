@@ -25,6 +25,3 @@ if __name__ == "__main__":
         print("gosu")
     else:
         print("hasu")
-
-# commit msg
-# --- 문제풀이_mireutale[25/ / ]
