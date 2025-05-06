@@ -1,6 +1,7 @@
 """
-* Codes/0x09 BFS/BOJ_2206/2206_벽부수고이동하기.py
+* Codes\starcoin\20499_다리우스님한타안함.py
 * Author : mireutale
+
 
 TODO 
 [설계]

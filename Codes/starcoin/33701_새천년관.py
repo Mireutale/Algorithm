@@ -1,8 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
 """
+* Codes\starcoin\33701_새천년관.py
+* Author : mireutale
+
+TODO 
 [설계]
 건물이름짓기
 조건 1. 이름은 알파벳 소문자로만
@@ -13,6 +13,10 @@ input = lambda: sys.stdin.readline().rstrip()
 
 조건을 만족하는 이름을 출력
 """
+
+#input을 빠르게 받기 위한 sys 라이브러리 사용
+import sys
+input = lambda: sys.stdin.readline().rstrip()
 
 if __name__ == "__main__":
     print("nkugwan")

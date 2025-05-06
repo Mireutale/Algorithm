@@ -1,14 +1,19 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
 """
+* Codes\starcoin\21965_드높은남산위에우뚝선.py
+* Author : mireutale
+
+
+TODO 
 [설계]
 
 어떤 수열 A가 산이라는 것 -> 특정 지점 이전까지는 증가하다가, 지점 이후부터는 감소하는 것
 
 수열이 산인지 판별
 """
+
+#input을 빠르게 받기 위한 sys 라이브러리 사용
+import sys
+input = lambda: sys.stdin.readline().rstrip()
 
 if __name__ == "__main__":
     number = int(input())

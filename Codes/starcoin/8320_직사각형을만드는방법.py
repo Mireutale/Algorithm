@@ -1,8 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-import math
 """
+* Codes\starcoin\8320_직사각형을만드는방법.py
+* Author : mireutale
+
+TODO 
 [설계]
 정사각형 n개를 가진 경우 -> 정사각형을 이용해서 만들 수 있는 직사각형의 개수는 몇개인가?
 
@@ -12,6 +12,10 @@ import math
 
 n (1 ~ 10,000)
 """
+#input을 빠르게 받기 위한 sys 라이브러리 사용
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+import math
 
 if __name__ == "__main__":
     number = int(input())
