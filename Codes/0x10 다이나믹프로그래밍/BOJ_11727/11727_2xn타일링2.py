@@ -7,7 +7,9 @@ import sys
 input = lambda: sys.stdin.readline().rstrip()
 
 if __name__ == "__main__":
-    pass
-
-# commit msg
-# --- 문제풀이_mireutale[25/ / ]
+    n = int(input())
+    count = [1] * (n+1)
+    count[1] = 1
+    for i in range(2, n+1):
+        count[i] = count[i-1] + count[i-2] * 2
+    print(count[n] % 10007)
