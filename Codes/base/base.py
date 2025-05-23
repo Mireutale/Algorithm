@@ -15,5 +15,13 @@ input = lambda: sys.stdin.readline().rstrip()
 if __name__ == "__main__":
     pass
 
-# commit msg
-# --- 문제풀이_mireutale[25/ / ]
+"""
+commit msg
+Solved / Working
+
+- Body
+
+Date : [25/05/23] 
+Problem : 1.HelloWorld
+Author : mireutale
+"""
