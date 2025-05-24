@@ -22,6 +22,4 @@ Solved / Working
 - Body
 
 Date : [25/05/23] 
-Problem : 1.HelloWorld
-Author : mireutale
 """
