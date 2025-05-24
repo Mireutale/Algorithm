@@ -1,5 +1,5 @@
 """
-* Codes\0x09 BFS\BOJ_14442\14442_벽부수고이동하기2.py
+* Barkingdog\0x09 BFS\BOJ_14442\14442_벽부수고이동하기2.py
 * Author : mireutale
 """
 

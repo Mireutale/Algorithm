@@ -1,4 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x03 배열\BOJ_3273\3273_두수의합.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 

@@ -1,5 +1,5 @@
 """
-* Codes\0x10 다이나믹프로그래밍\BOJ_2748\2748_피보나치수2.py
+* Barkingdog\0x10 다이나믹프로그래밍\BOJ_2748\2748_피보나치수2.py
 * Author : mireutale
 """
 

@@ -1,4 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x05 스택\BOJ_6549\6549_히스토그램에서가장큰직사각형.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 

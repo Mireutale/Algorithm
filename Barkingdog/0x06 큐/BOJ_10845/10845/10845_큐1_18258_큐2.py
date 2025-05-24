@@ -1,4 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x06 큐\BOJ_10845\10845\10845_큐1_18258_큐2.py
+* Author : mireutale
+"""
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

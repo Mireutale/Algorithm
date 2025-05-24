@@ -1,7 +1,12 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x09 BFS\BOJ_3197\3197_백조의호수.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 from collections import deque
+
 """
 [설계]
 X : 얼어있는 공간

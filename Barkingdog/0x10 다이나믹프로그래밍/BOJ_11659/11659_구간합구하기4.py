@@ -1,5 +1,5 @@
 """
-* Codes\0x10 다이나믹프로그래밍\BOJ_11659\11659_구간합구하기4.py
+* Barkingdog\0x10 다이나믹프로그래밍\BOJ_11659\11659_구간합구하기4.py
 * Author : mireutale
 """
 

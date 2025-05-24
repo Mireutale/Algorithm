@@ -1,8 +1,7 @@
 """
-* Codes/0x09 BFS/BOJ_9466/9466_텀프로젝트.py
+* Barkingdog\0x09 BFS\BOJ_9466\9466_텀프로젝트.py
 * Author : mireutale
 """
-
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

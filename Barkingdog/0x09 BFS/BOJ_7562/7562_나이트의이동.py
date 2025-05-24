@@ -1,3 +1,8 @@
+"""
+* Barkingdog\0x09 BFS\BOJ_7562\7562_나이트의이동.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 from collections import deque

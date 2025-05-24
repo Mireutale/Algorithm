@@ -1,4 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x04 연결리스트\BOJ_1158\1158_요세푸스문제.py
+* Author : mireutale
+"""
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

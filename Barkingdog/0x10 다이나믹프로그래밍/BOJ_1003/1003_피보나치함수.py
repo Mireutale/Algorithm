@@ -1,5 +1,5 @@
 """
-* Codes\0x10 다이나믹프로그래밍\BOJ_1003\1003_피보나치함수.py
+* Barkingdog\0x10 다이나믹프로그래밍\BOJ_1003\1003_피보나치함수.py
 * Author : mireutale
 """
 

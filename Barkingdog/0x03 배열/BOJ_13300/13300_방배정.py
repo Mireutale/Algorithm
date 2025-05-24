@@ -1,4 +1,8 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x03 배열\BOJ_13300\13300_방배정.py
+* Author : mireutale
+"""
+
 import sys
 import math
 input = lambda: sys.stdin.readline().rstrip()
@@ -27,7 +31,6 @@ if __name__ == "__main__":
     student = [[0, 0] for _ in range(6)]
     for i in range(N):
         S, Y = map(int, input().split())
-<<<<<<< HEAD
         #? print(Y, S)
         student[Y-1][S] += 1
     #? print(student)
@@ -35,13 +38,6 @@ if __name__ == "__main__":
     for i in range(6):
         for j in range(2):
             #! 무조건 올림 ceil사용
-=======
-        student[Y-1][S] += 1
-    rooms = 0
-    for i in range(6):
-        for j in range(2):
-            #? 무조건 올림 ceil사용
->>>>>>> a6fd7ab4db34266f05fdf45cddf6c645109b48ac
             rooms += math.ceil(student[i][j] / K)
     print(rooms)
 

@@ -1,3 +1,8 @@
+"""
+* Barkingdog\0x09 BFS\BOJ_20304\20304_비밀번호제작.py
+* Author : mireutale
+"""
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

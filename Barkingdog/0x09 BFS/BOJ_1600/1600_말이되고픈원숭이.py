@@ -1,8 +1,7 @@
 """
-* Codes\0x09 BFS\BOJ_1600\1600_말이되고픈원숭이.py
+* Barkingdog\0x09 BFS\BOJ_1600\1600_말이되고픈원숭이.py
 * Author : mireutale
 """
-
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

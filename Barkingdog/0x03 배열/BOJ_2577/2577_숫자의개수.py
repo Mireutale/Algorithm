@@ -1,3 +1,8 @@
+"""
+* Barkingdog\0x03 배열\BOJ_2577\2577_숫자의개수.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 

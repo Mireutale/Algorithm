@@ -1,5 +1,5 @@
 """
-* Codes\0x09 BFS\BOJ_2146\2146_다리만들기.py
+* Barkingdog\0x09 BFS\BOJ_2146\2146_다리만들기.py
 * Author : mireutale
 """
 

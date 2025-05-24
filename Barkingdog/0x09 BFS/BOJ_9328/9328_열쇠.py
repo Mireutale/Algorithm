@@ -1,3 +1,8 @@
+"""
+* Barkingdog\0x09 BFS\BOJ_9328\9328_열쇠.py
+* Author : mireutale
+"""
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 from collections import deque

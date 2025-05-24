@@ -1,5 +1,5 @@
 """
-* Codes/0x09 BFS/BOJ_2206/2206_벽부수고이동하기.py
+* Barkingdog\0x09 BFS\BOJ_2206\2206_벽부수고이동하기.py
 * Author : mireutale
 
 TODO 

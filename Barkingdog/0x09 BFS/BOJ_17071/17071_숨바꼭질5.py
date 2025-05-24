@@ -1,5 +1,5 @@
 """
-* Codes/0x09 BFS/BOJ_2206/2206_벽부수고이동하기.py
+* Barkingdog\0x09 BFS\BOJ_17071\17071_숨바꼭질5.py
 * Author : mireutale
 """
 import sys

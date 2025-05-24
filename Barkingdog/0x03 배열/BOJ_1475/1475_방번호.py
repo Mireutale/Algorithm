@@ -1,4 +1,7 @@
-#input을 빠르게 받기 위한 sys 라이브러리 사용
+"""
+* Barkingdog\0x03 배열\BOJ_1475\1475_방번호.py
+* Author : mireutale
+"""
 import sys
 import math
 input = lambda: sys.stdin.readline().rstrip()
