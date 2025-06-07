@@ -1,6 +1,6 @@
-# 백준 ---번 - 제목
+# 백준 12852번 - 1로 만들기 2
 
-[문제 보러 가기](https://www.acmicpc.net/problem/---)
+[문제 보러 가기](https://www.acmicpc.net/problem/12852)
 
 ## 핵심규칙
 
@@ -17,4 +17,4 @@ X를 1로 만드는 연산의 최솟값
 
 ## 예제 입출력
 
-입력 및 출력 예시는 [문제 링크](https://www.acmicpc.net/problem/---) 참고.
+입력 및 출력 예시는 [문제 링크](https://www.acmicpc.net/problem/12852) 참고.
