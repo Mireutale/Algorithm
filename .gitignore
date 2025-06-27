@@ -463,3 +463,18 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,clion,clion+all,clion+iml,python,c++
+
+# macOS ###
+# macOS Finder files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+
+*.swp       # Vim swap files
+*.swo       # Vim swap files
+*.bak       # Backup files
+*.tmp       # Temporary files
+*.log       # Log files
+*.pid       # Process ID files
