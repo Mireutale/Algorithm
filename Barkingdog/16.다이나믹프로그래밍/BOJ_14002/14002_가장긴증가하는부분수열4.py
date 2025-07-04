@@ -1,25 +1,38 @@
 """
-* Codes/0x09 BFS/BOJ_2206/2206_벽부수고이동하기.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_14002/14002_가장긴증가하는부분수열4.py
 * Author : mireutale
-
-* input을 빠르게 받기 위한 sys 라이브러리 사용
-* sys.stdin.readline()을 사용해서 input보다 더 빠르게 값을 입력받음
-* rstrip()을 사용해서 마지막 개행문자 '\n'을 입력받지 않도록 설정
-* lambda함수를 사용해서 input을 sys.stdin.readline().rstrip()으로 대체
 """
-
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 
 if __name__ == "__main__":
-    pass
+    n = int(input())
+    A = list(map(int, input().split()))
+    dp = [[1, -1] for _ in range(n)]  # ? [길이, 이전 인덱스]
+    for i in range(1, n):
+        for j in range(i):
+            # * 더 작은 수를 찾은 경우에, 현재 지정된 값 보다 크면 변경 
+            if A[j] < A[i] and dp[i][0] < dp[j][0] + 1:
+                dp[i][0] = dp[j][0] + 1
+                dp[i][1] = j
+            
 
-"""
-commit msg
-Solved / Working
+    # 가장 긴 부분수열의 길이와 마지막 인덱스 찾기
+    max_len = 0
+    idx = -1
+    for i in range(n):
+        # * 가장 긴 부분수열의 길이보다 i가 더 긴 경우
+        if dp[i][0] > max_len:
+            max_len = dp[i][0]
+            # * 마지막 인덱스 설정
+            idx = i
 
-- Body
-
-Date : [25/06/01] 
-"""
+    # * 부분수열 역추적
+    ans = []
+    while idx != -1:
+        ans.append(A[idx])
+        idx = dp[idx][1]
+    ans.reverse()
+    print(max_len)
+    print(*ans)
