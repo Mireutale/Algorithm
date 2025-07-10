@@ -8,18 +8,8 @@
 * lambda함수를 사용해서 input을 sys.stdin.readline().rstrip()으로 대체
 """
 
-
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 
 if __name__ == "__main__":
     pass
-
-"""
-commit msg
-Solved / Working
-
-- Body
-
-Date : [25/06/01] 
-"""
