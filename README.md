@@ -9,13 +9,13 @@
 
 ## [2] 사용한 문제집 URL  
 
-1. [바킹독 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog), 구버전 문제는 풀지 않았습니다.  
+1. 폴더 Barkingdog [바킹독 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog), 구버전 문제는 풀지 않았습니다.  
 
-2. [solved.ac CLASS](https://solved.ac/class)
+2. 폴더 Solved [solved.ac CLASS](https://solved.ac/class)
 
-3. something, 주변인에게 추천받은 문제의 풀이입니다.
+3. 폴더 something, 주변인에게 추천받은 문제의 풀이입니다.
 
-4. starcoin, solved.ac의 랜덤 마라톤 문제의 풀이입니다.
+4. 폴더 starcoin, solved.ac의 랜덤 마라톤 문제의 풀이입니다.
 
 ## [3] 사용한 Programming Language
 
@@ -23,4 +23,4 @@
 
 ## [4] 문제풀이 정리
 
-추후 블로그에 정리할 예정
+추후 블로그에 정리할 예정, 현재는 문제별 README.md에 간단하게 작성
