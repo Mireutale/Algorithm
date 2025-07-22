@@ -4,7 +4,6 @@
 """
 
 import sys
-import math
 input = lambda: sys.stdin.readline().rstrip()
 
 def star_print(row: int, col: int, n: int):
@@ -25,6 +24,24 @@ def star_print(row: int, col: int, n: int):
         star_print(row, col + n, n)
         star_print(row + n, col, n)
         star_print(row + n, col + n*2, n)
+
+# ! 가독성을 좋게 한 버전
+# def star_print(row, col, size):
+#     # pattern을 기본적으로 설정
+#     if size == 3:
+#         pattern = [
+#             "  *  ",
+#             " * * ",
+#             "*****"
+#         ]
+#         for i in range(3):
+#             for j in range(5):
+#                 ans[row + i][col + j] = pattern[i][j]
+#     else:
+#         half = size // 2
+#         star_print(row, col + half, half)           # 위쪽 삼각형
+#         star_print(row + half, col, half)           # 왼쪽 아래 삼각형
+#         star_print(row + half, col + 2*half, half)    # 오른쪽 아래 삼각형
 
 if __name__ == "__main__":
     n = int(input())
