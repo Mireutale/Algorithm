@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x10 다이나믹프로그래밍\BOJ_11726\11726_2×n타일링.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_11726/11726_2xn타일링.py
 * Author : mireutale
 """
 

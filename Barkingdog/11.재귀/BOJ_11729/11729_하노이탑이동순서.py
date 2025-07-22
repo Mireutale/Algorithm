@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_11729/11729_하노이탑이동순서py
+* CodingTest/Barkingdog/11.재귀/BOJ_11729/11729_하노이탑이동순서.py
 * Author : mireutale
 """
 

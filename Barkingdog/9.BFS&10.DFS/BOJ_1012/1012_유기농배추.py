@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_1012\1012_유기농배추.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1012/1012_유기농배추.py
 * Author : mireutale
 """
 

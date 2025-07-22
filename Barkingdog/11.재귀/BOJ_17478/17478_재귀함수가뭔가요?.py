@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_17478/17478_재귀함수가뭔가요?.py
+* CodingTest/Barkingdog/11.재귀/BOJ_17478/17478_재귀함수가뭔가요?.py
 * Author : mireutale
 """
 

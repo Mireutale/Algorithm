@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_1919\1919_애너그램만들기.py
+* CodingTest/Barkingdog/3.배열/BOJ_1919/1919_애너그램만들기.py
 * Author : mireutale
 """
 

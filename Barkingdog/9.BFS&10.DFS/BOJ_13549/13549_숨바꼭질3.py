@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_13549\13549_숨바꼭질3.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_13549/13549_숨바꼭질3.py
 * Author : mireutale
 """
 

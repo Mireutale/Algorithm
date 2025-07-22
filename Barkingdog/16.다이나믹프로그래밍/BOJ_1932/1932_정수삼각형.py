@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_1932\1932_정수삼각형.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1932/1932_정수삼각형.py
 * Author : mireutale
 """
 

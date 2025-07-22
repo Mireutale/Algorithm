@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x04 연결리스트\BOJ_1158\1158_요세푸스문제.py
+* CodingTest/Barkingdog/4.연결리스트/BOJ_1158/1158_요세푸스문제.py
 * Author : mireutale
 """
 

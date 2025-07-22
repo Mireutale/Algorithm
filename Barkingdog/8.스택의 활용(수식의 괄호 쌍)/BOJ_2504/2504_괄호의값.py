@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x08 스택의 활용(수식의 괄호 쌍)\BOJ_2504\2504_괄호의값.py
+* CodingTest/Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_2504/2504_괄호의값.py
 * Author : mireutale
 """
 import sys

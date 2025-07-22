@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_6593\6593_상범빌딩.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_6593/6593_상범빌딩.py
 * Author : mireutale
 """
 

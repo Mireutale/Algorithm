@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_2493\2493_탑.py
+* CodingTest/Barkingdog/5.스택/BOJ_2493/2493_탑.py
 * Author : mireutale
 """
 

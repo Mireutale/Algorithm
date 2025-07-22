@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_10844\10844_쉬운계단수.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_10844/10844_쉬운계단수.py
 * Author : mireutale
 """
 

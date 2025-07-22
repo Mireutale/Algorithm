@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x07 덱\BOJ_1021\1021_회전하는큐.py
+* CodingTest/Barkingdog/7.덱/BOJ_1021/1021_회전하는큐.py
 * Author : mireutale
 """
 

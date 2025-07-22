@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_10773\10773_제로.py
+* CodingTest/Barkingdog/5.스택/BOJ_10773/10773_제로.py
 * Author : mireutale
 """
 

@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_11057\11057_오르막수.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_11057/11057_오르막수.py
 * Author : mireutale
 """
 

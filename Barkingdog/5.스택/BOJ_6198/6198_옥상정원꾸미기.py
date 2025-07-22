@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_6198\6198_옥상정원꾸미기.py
+* CodingTest/Barkingdog/5.스택/BOJ_6198/6198_옥상정원꾸미기.py
 * Author : mireutale
 """
 

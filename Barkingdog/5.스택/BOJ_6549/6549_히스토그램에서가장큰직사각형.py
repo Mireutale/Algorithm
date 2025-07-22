@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_6549\6549_히스토그램에서가장큰직사각형.py
+* CodingTest/Barkingdog/5.스택/BOJ_6549/6549_히스토그램에서가장큰직사각형.py
 * Author : mireutale
 """
 

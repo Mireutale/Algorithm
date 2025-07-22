@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_3273\3273_두수의합.py
+* CodingTest/Barkingdog/3.배열/BOJ_3273/3273_두수의합.py
 * Author : mireutale
 """
 

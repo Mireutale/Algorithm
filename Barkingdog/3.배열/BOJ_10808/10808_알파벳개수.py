@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_10808\10808_알파벳개수.py
+* CodingTest/Barkingdog/3.배열/BOJ_10808/10808_알파벳개수.py
 * Author : mireutale
 """
 

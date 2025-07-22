@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_2667\2667_단지번호붙이기.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2667/2667_단지번호붙이기.py
 * Author : mireutale
 """
 

@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x06 큐\BOJ_10845\10845\10845_큐1_18258_큐2.py
+* CodingTest/Barkingdog/6.큐/BOJ_10845/10845/10845_큐1_18258_큐2.py
 * Author : mireutale
 """
 

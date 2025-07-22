@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x04 연결리스트\BOJ_5397\5397_키로거.py
+* CodingTest/Barkingdog/4.연결리스트/BOJ_5397/5397_키로거.py
 * Author : mireutale
 """
 

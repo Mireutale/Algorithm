@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\0x10 다이나믹프로그래밍\BOJ_1904\1904_01타일.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1904/1904_01타일.py
 * Author : mireutale
 """
 

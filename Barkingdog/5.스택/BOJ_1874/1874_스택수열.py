@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_1874\1874_스택수열.py
+* CodingTest/Barkingdog/5.스택/BOJ_1874/1874_스택수열.py
 * Author : mireutale
 """
 

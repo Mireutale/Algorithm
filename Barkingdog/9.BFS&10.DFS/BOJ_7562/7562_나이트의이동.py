@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_7562\7562_나이트의이동.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_7562/7562_나이트의이동.py
 * Author : mireutale
 """
 

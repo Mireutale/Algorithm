@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_10807\10807_개수세기.py
+* CodingTest/Barkingdog/3.배열/BOJ_10807/10807_개수세기.py
 * Author : mireutale
 """
 

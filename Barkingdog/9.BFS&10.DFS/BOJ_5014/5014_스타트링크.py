@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_5014\5014_스타트링크.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_5014/5014_스타트링크.py
 * Author : mireutale
 """
 

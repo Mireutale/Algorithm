@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x10 다이나믹프로그래밍\BOJ_9461\9461_파도반수열.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_9461/9461_파도반수열.py
 * Author : mireutale
 """
 

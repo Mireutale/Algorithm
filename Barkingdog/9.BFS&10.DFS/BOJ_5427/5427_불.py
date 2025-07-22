@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_5427\5427_불.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_5427/5427_불.py
 * Author : mireutale
 """
 

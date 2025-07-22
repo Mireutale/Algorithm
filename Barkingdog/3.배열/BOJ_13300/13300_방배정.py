@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_13300\13300_방배정.py
+* CodingTest/Barkingdog/3.배열/BOJ_13300/13300_방배정.py
 * Author : mireutale
 """
 

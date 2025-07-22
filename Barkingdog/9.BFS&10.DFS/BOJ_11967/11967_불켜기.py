@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_11967\11967_불켜기.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_11967/11967_불켜기.py
 * Author : mireutale
 """
 

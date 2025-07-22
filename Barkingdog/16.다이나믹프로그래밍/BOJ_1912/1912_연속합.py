@@ -1,5 +1,5 @@
 """
-* Barkingdog\16.다이나믹프로그래밍\BOJ_1912\1912_연속합.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1912/1912_연속합.py
 * Author : mireutale
 """
 

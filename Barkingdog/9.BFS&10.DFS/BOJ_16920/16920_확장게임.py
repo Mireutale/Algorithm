@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_16920\16920_확장게임.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_16920/16920_확장게임.py
 * Author : mireutale
 """
 

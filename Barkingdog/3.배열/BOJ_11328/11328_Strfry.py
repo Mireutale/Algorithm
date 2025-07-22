@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_11328\11328_Strfry.py
+* CodingTest/Barkingdog/3.배열/BOJ_11328/11328_Strfry.py
 * Author : mireutale
 """
 

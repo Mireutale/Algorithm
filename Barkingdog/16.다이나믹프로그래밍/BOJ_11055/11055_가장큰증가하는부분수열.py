@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_11055\11055_가장큰증가하는부분수열.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_11055/11055_가장큰증가하는부분수열.py
 * Author : mireutale
 """
 

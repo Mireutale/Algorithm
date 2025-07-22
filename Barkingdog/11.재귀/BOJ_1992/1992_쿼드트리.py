@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_1992/192_쿼드트리.py
+* CodingTest/Barkingdog/11.재귀/BOJ_1992/1992_쿼드트리.py
 * Author : mireutale
 """
 

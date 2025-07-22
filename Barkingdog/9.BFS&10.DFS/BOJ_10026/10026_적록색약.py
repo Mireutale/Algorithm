@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_10026\10026_적록색약.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_10026/10026_적록색약.py
 * Author : mireutale
 """
 

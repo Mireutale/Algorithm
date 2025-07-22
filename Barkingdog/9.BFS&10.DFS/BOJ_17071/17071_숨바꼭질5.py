@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_17071\17071_숨바꼭질5.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_17071/17071_숨바꼭질5.py
 * Author : mireutale
 """
 import sys

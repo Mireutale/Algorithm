@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_1149\1149_RGB거리.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1149/1149_RGB거리.py
 * Author : mireutale
 """
 

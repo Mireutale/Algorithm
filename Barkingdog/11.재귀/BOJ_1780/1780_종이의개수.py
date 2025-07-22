@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_1780/1780_종이의개수.py
+* CodingTest/Barkingdog/11.재귀/BOJ_1780/1780_종이의개수.py
 * Author : mireutale
 """
 

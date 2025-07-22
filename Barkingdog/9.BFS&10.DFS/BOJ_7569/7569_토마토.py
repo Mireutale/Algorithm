@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_7569\7569_토마토.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_7569/7569_토마토.py
 * Author : mireutale
 """
 

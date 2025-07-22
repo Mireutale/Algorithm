@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_1600\1600_말이되고픈원숭이.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1600/1600_말이되고픈원숭이.py
 * Author : mireutale
 """
 

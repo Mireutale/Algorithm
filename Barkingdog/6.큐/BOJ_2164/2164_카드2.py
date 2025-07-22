@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x06 큐\BOJ_2164\2164_카드2.py
+* CodingTest/Barkingdog/6.큐/BOJ_2164/2164_카드2.py
 * Author : mireutale
 """
 import sys

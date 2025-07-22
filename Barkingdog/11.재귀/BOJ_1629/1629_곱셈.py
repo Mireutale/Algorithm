@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_1629/1629_곱셈.py
+* CodingTest/Barkingdog/11.재귀/BOJ_1629/1629_곱셈.py
 * Author : mireutale
 """
 

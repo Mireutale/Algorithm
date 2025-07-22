@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\0x10 다이나믹프로그래밍\BOJ_1788\1788_피보나치수의확장.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1788/1788_피보나치수의확장.py
 * Author : mireutale
 """
 

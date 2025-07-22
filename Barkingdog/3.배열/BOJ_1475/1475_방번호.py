@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x03 배열\BOJ_1475\1475_방번호.py
+* CodingTest/Barkingdog/3.배열/BOJ_1475/1475_방번호.py
 * Author : mireutale
 """
 import sys

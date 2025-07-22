@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_2156\2156_포도주시식.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_2156/2156_포도주시식.py
 * Author : mireutale
 """
 

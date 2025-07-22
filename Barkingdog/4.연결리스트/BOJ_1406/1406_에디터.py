@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x04 연결리스트\BOJ_1406\1406_에디터.py
+* CodingTest/Barkingdog/4.연결리스트/BOJ_1406/1406_에디터.py
 * Author : mireutale
 """
 

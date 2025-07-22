@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x10 다이나믹프로그래밍\BOJ_2193\2193_이친수.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_2193/2193_이친수.py
 * Author : mireutale
 """
 

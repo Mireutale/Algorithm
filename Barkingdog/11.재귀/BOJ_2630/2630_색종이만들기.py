@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_2630/2630_색종이만들기.py
+* CodingTest/Barkingdog/11.재귀/BOJ_2630/2630_색종이만들기.py
 * Author : mireutale
 """
 

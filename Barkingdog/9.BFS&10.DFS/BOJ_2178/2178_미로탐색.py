@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_2178\2178_미로탐색.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2178/2178_미로탐색.py
 * Author : mireutale
 """
 import sys

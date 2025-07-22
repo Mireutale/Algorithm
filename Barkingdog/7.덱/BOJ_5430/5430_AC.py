@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x07 덱\BOJ_5430\5430_AC.py
+* CodingTest/Barkingdog/7.덱/BOJ_5430/5430_AC.py
 * Author : mireutale
 """
 

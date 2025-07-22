@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_9465\9465_스티커.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_9465/9465_스티커.py
 * Author : mireutale
 """
 

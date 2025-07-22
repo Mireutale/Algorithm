@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_1926\1926_그림.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1926/1926_그림.py
 * Author : mireutale
 """
 import sys

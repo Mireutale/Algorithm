@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x05 스택\BOJ_3015\3015_오아시스재결합.py
+* CodingTest/Barkingdog/5.스택/BOJ_3015/3015_오아시스재결합.py
 * Author : mireutale
 """
 

@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x10 다이나믹프로그래밍\BOJ_9095\9095_1,2,3더하기.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_9095/9095_1,2,3더하기.py
 * Author : mireutale
 """
 

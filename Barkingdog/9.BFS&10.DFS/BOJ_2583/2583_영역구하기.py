@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_2583\2583_영역구하기.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2583/2583_영역구하기.py
 * Author : mireutale
 """
 import sys

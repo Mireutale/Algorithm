@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/11(0x0B).재귀/BOJ_2447/2447_별찍기10.py
+* CodingTest/Barkingdog/11.재귀/BOJ_2447/2447_별찍기10.py
 * Author : mireutale
 """
 

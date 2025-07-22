@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x08 스택의 활용(수식의 괄호 쌍)\BOJ_10799\10799_쇠막대기.py
+* CodingTest/Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_10799/10799_쇠막대기.py
 * Author : mireutale
 """
 

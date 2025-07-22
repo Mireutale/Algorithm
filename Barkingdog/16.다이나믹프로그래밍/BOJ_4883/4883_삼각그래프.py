@@ -1,5 +1,5 @@
 """
-* CodingTest\Barkingdog\16.다이나믹프로그래밍\BOJ_4883\4883_삼각그래프.py
+* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_4883/4883_삼각그래프.py
 * Author : mireutale
 """
 

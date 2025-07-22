@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x09 BFS\BOJ_2468\2468_안전영역.py
+* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2464/2468_안전영역.py
 * Author : mireutale
 """
 import sys

@@ -1,5 +1,5 @@
 """
-* Barkingdog\0x07 덱\BOJ_10866\10866_덱.py
+* CodingTest/Barkingdog/7.덱/BOJ_10866/10866_덱.py
 * Author : mireutale
 """
 
