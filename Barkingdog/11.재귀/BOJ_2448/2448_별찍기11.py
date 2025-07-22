@@ -49,3 +49,5 @@ if __name__ == "__main__":
     star_print(0, 0, n)
     for row in ans:
         print(*row, sep='')
+    # for row in ans:
+    #     print(''.join(row))
