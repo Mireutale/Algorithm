@@ -1,5 +1,5 @@
 """
-* Codes/0x09 BFS/BOJ_2206/2206_벽부수고이동하기.py
+* CodingTest/Barkingdog/----/------.py
 * Author : mireutale
 
 * input을 빠르게 받기 위한 sys 라이브러리 사용
