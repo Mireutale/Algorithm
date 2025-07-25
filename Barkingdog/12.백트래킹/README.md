@@ -9,4 +9,6 @@
 | 15649 | N과 M(1)  | silver 3 |
 | 15650 | N과 M(2)  | silver 3 |
 | 15651 | N과 M(3)  | silver 3 |
+| 15652 | N과 M(4)  | silver 3 |
+| 15654 | N과 M(5)  | silver 3 |
 
