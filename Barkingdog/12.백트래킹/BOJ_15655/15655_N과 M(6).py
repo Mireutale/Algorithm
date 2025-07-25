@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/12.백트래킹/15655_N과 M(6).py
+* CodingTest/Barkingdog/12.백트래킹/BOJ_15655/15655_N과 M(6).py
 * Author : mireutale
 """
 
