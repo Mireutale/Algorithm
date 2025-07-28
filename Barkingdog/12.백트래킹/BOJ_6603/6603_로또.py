@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/12.백트래킹/BOJ_1182/1182_부분수열의 합.py
+* CodingTest/Barkingdog/12.백트래킹/BOJ_6603/6603_로또.py
 * Author : mireutale
 """
 
