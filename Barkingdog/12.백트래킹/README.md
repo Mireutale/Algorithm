@@ -9,6 +9,7 @@
 | 1182  |   부분수열의 합   | silver 2 |
 | 1759  |    암호 만들기    |  gold 5  |
 | 6603  |       로또        | silver 2 |
+| 9663  |      N-Queen      |  gold 4  |
 | 15649 |     N과 M(1)      | silver 3 |
 | 15650 |     N과 M(2)      | silver 3 |
 | 15651 |     N과 M(3)      | silver 3 |
