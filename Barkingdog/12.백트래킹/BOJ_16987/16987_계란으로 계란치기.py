@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/12.백트래킹/BOJ_15665/15665_N과 M(11).py
+* CodingTest/Barkingdog/12.백트래킹/BOJ_16987/16987_계란으로 계란치기.py
 * Author : mireutale
 """
 

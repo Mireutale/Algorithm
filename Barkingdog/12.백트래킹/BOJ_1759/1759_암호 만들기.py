@@ -1,5 +1,5 @@
 """
-* CodingTest/Barkingdog/12.백트래킹/BOJ_1182/1182_부분수열의 합.py
+* CodingTest/Barkingdog/12.백트래킹/BOJ_1759/1759_암호 만들기.py
 * Author : mireutale
 """
 
