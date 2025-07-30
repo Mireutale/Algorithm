@@ -18,6 +18,7 @@ input = lambda: sys.stdin.readline().rstrip()
 이후, 같은 개수를 가진 알파벳 제외 전부 삭제 수행
 """
 
+""" 2개의 배열을 이용한 풀이
 def count_alpabet(word, alpabet):
     for i in word:
         alpabet[ord(i) - ord('a')] += 1
@@ -33,4 +34,22 @@ if __name__ == "__main__":
     delete_alpabet = 0
     for i in range(26):
         delete_alpabet += abs(alpabet1[i] - alpabet2[i])
+    print(delete_alpabet)
+"""
+
+def count_alpabet(word1: str, word2, alpabet: list):
+    for i in word1:
+        alpabet[ord(i) - ord('a')] += 1
+    for i in word2:
+        alpabet[ord(i) - ord('a')] -= 1
+    return
+
+if __name__ == "__main__":
+    word1 = input()
+    word2 = input()
+    alpabet = [0] * 26
+    count_alpabet(word1, word2, alpabet)
+    delete_alpabet = 0
+    for i in range(26):
+        delete_alpabet += abs(alpabet[i])
     print(delete_alpabet)
