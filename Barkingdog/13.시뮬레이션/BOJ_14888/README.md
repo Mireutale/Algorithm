@@ -43,3 +43,7 @@
 ### 문제풀이
 
 `1.설계`
+
+dfs를 활용해서, 가능한 모든 조합을 얻고, results에 해당 operation 조합을 입력
+
+results에서 ops를 꺼내서, 계산을 수행하고 max값과 min값을 저장하고 출력
