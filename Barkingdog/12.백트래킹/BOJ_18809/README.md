@@ -57,3 +57,32 @@
 12. 아닌경우는 red가 -1이면 배양액이 이동
 
 `2. 시간초과`
+
+Python으로는 시간 초과가 발생하고, Pypy3으로 수행하면 시간 초과가 발생하지 않음.
+
+Python3 풀이를 알고싶어서.. 백준 karinarang님의 정답 코드를 보았다..
+
+나는 red, green, flower 맵을 전부 따로 설정했는데 이런 이유로 메모리를 많이 사용함.
+
+그리고 dfs를 수행할 때, green과 red를 set()으로 두고, dfs수행
+
+수행중 만약 len(g) == G and len(r) == R이면 res = bfs(g, r)을 수행하고, ans를 최댓값으로 변경한다.
+
+만약 idx가 len(yellow)이면, 즉 배양액이 전부 사용된 만큼 idx가 커지면 return 을 수행
+
+next = yellow[idx]로 두고, green의 배양액이 모자르면 g | {nxt} 로 set에 추가, 반대는 r | {nxt}로 set에 추가하는 형식
+
+bfs코드르 보면 v를 전부 [0]으로 둔 맵으로 설정하고, 호수인 부분을 전부 1로 설정
+
+그리고 deque에 (i, j, 2 or 3)을 입력한다.
+2의 경우는 green, 3의 경우는 red이고, 이미 사용된 지역을 전부 1로 설정한다.
+
+만약 새로 탐색한 위치의 값이 0이면 color로 설정하고 new_deque에 값을 추가
+새로 탐색한 값이 다른 색이면 cnt += 1로 설정하고 꽃을 피운다.
+
+이후, new_dq.remove를 사용해서 미리 넣은 green이나 red 배양액을 새로운 덱에서 지우고 flower로 설정한다.
+
+모든 수행이 끝나고 new_dq에 있는 값을 확인해서 꽃이 되지 못한 배양액들을 전부 1로 설정해서 작동하지 않도록 하고 dq = new_dq를 수행
+다시 while문을 돈다.
+
+만약 더이상 new_dq가 없으면 -> 더이상 늘어날 수 없으므로 break를 수행하고 현재 flower의 개수를 return한다.
