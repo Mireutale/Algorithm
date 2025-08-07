@@ -1,5 +1,5 @@
 """
-* Codes\something\BOJ_20055\20055_컨테이너벨트위의로봇.py
+* CodingTest/Barkingdog/13.시뮬레이션/BOJ_20055/20055_컨테이너벨트위의로봇.py
 * Author : mireutale
 """
 
