@@ -44,7 +44,7 @@ select에 1부터 n까지의 사람들 중에서 절반 인원을 뽑는 조합�
 
 스타트팀과 링크팀은 반드시 모든 능력치가 각 팀에 배정되어야 하고, 그 중에서 gap이 가장 작은 경우를 찾는게 문제이다.
 
-status와 reverse*status를 찾고 두 값을 더하면, i와 j가 팀에 들어가는 경우가 있으면 $S*{ij}$ + $S_{ji}$가 성립함
+status와 reverse\*status를 찾고 두 값을 더하면, i와 j가 팀에 들어가는 경우가 있으면 $S_{ij}$ + $S_{ji}$가 성립함
 
 이를 통해서 `ns = [sum(status[i]) + sum(reverse_status[i]) for i in range(n)]`가 성립
 
