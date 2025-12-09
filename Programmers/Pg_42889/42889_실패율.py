@@ -16,7 +16,6 @@ def solution(N, stages):
         if not player:
             fail_rate[i] = 0
         player -= fail_player
-    print(fail_rate)
     answer = [idx + 1 for idx, rate in sorted(fail_rate.items(), key=lambda x:x[1], reverse=True)]
     return answer
 
