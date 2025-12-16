@@ -158,3 +158,54 @@ M번의 이동이 모두 끝난 후 바구니에 들어있는 물의 양의 합�
 0	1	22	11	0
 4	5	0	3	2
 ```
+
+- 먼저 문제를 풀기 위해서 기본적으로 board에 현 상태를 저장해야 한다.
+- 그리고 Move에 어떻게 이동할 것인지를 저장하고, direction을 미리 저장해 놓는다.
+- Cloud에 미리 구름을 저장해 놓을 것이고, 물복사 버그 수행 후 물 양을 줄이고 temp에 새로운 구름을 저장해야 하는데, 이전 cloud와 동일한 위치는 사용하지 않는걸로 한다.
+
+`2. 시간초과`
+"""Text
+if __name__ == "__main__":
+    N, M = map(int, input().split())
+    board = [] # 기존의 땅 상황
+    move = deque() # 구름의 이동
+    cloud = deque([[N-1, 0], [N-1, 1], [N-2, 0], [N-2, 1]])
+    for _ in range(N):
+        board.append(list(map(int ,input().split())))
+    for _ in range(M):
+        move.append(list(map(int, input().split())))
+    # 8개 방향 : ←(9시), ↖(11시), ↑(12시), ↗(1시), →(3시), ↘(5시), ↓(6시), ↙(7시) 
+    direction = [(0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1), (1, 0), (1, -1)]
+    diagonal = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
+    while move:
+        direct, move_times = move.popleft()
+        for _ in range(len(cloud)):
+            x, y = cloud.popleft()
+            dx, dy = direction[direct-1]
+            nx, ny = x + (dx * move_times), y + (dy * move_times)
+            cloud.append([nx % N, ny % N])
+
+        for i, j in cloud:
+            board[i][j] += 1
+            for k, l in diagonal:
+                di, dj = i + k, j + l
+                if 0 <= di < N and 0 <= dj < N:
+                    if board[di][dj] != 0 or [di, dj] in cloud:
+                        board[i][j] += 1
+        
+        temp = deque()
+        for i in range(N):
+            for j in range(N):
+                if [i, j] not in cloud:
+                    if board[i][j] >= 2:
+                        board[i][j] -= 2
+                        temp.append([i, j])
+        cloud = temp
+    
+    ans = 0
+    for i in range(N):
+        ans += sum(board[i])
+    print(ans)
+"""
+
+- 기존 코드를 보면 for 반복문을 여러번 중첩해서 사용하는 부분이 많이 나온다.
