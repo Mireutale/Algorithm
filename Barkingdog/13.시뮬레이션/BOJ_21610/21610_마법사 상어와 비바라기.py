@@ -10,7 +10,7 @@ if __name__ == "__main__":
     N, M = map(int, input().split())
     board = [] # 기존의 땅 상황
     move = deque() # 구름의 이동
-    cloud = deque([[N-1, 0], [N-1, 1], [N-2, 0], [N-2, 1]])
+    cloud = deque([(N-1, 0), (N-1, 1), (N-2, 0), (N-2, 1)])
     for _ in range(N):
         board.append(list(map(int ,input().split())))
     for _ in range(M):
@@ -20,29 +20,38 @@ if __name__ == "__main__":
     diagonal = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
     while move:
         direct, move_times = move.popleft()
+        dx, dy = direction[direct-1]
+        move_times %= N
+        # 구름 이동
         for _ in range(len(cloud)):
             x, y = cloud.popleft()
-            dx, dy = direction[direct-1]
             nx, ny = x + (dx * move_times), y + (dy * move_times)
-            cloud.append([nx % N, ny % N])
+            cloud.append((nx % N, ny % N))
 
+        # 비 내리기
+        before_cloud = [[False] * N for _ in range(N)]
         for i, j in cloud:
-            board[i][j] += 1
+            before_cloud[i][j] = True
+            board[i][j] += 1 
+        
+        # 물복사 버그
+        for i, j in cloud:
             for k, l in diagonal:
                 di, dj = i + k, j + l
                 if 0 <= di < N and 0 <= dj < N:
-                    if board[di][dj] != 0 or [di, dj] in cloud:
+                    if board[di][dj] != 0:
                         board[i][j] += 1
         
+        # 구름 생성
         temp = deque()
         for i in range(N):
             for j in range(N):
-                if [i, j] not in cloud:
-                    if board[i][j] >= 2:
-                        board[i][j] -= 2
-                        temp.append([i, j])
+                if not before_cloud[i][j] and board[i][j] >= 2:
+                    board[i][j] -= 2
+                    temp.append([i, j])
         cloud = temp
     
+    # 최종 결과
     ans = 0
     for i in range(N):
         ans += sum(board[i])

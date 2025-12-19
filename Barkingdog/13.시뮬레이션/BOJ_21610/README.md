@@ -165,25 +165,24 @@ M번의 이동이 모두 끝난 후 바구니에 들어있는 물의 양의 합�
 
 `2. 시간초과`
 """Text
-if __name__ == "__main__":
-    N, M = map(int, input().split())
-    board = [] # 기존의 땅 상황
-    move = deque() # 구름의 이동
-    cloud = deque([[N-1, 0], [N-1, 1], [N-2, 0], [N-2, 1]])
-    for _ in range(N):
-        board.append(list(map(int ,input().split())))
-    for _ in range(M):
-        move.append(list(map(int, input().split())))
-    # 8개 방향 : ←(9시), ↖(11시), ↑(12시), ↗(1시), →(3시), ↘(5시), ↓(6시), ↙(7시) 
-    direction = [(0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1), (1, 0), (1, -1)]
-    diagonal = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
-    while move:
-        direct, move_times = move.popleft()
-        for _ in range(len(cloud)):
-            x, y = cloud.popleft()
-            dx, dy = direction[direct-1]
-            nx, ny = x + (dx * move_times), y + (dy * move_times)
-            cloud.append([nx % N, ny % N])
+if **name** == "**main**":
+N, M = map(int, input().split())
+board = [] # 기존의 땅 상황
+move = deque() # 구름의 이동
+cloud = deque([[N-1, 0], [N-1, 1], [N-2, 0], [N-2, 1]])
+for _ in range(N):
+board.append(list(map(int ,input().split())))
+for _ in range(M):
+move.append(list(map(int, input().split()))) # 8개 방향 : ←(9시), ↖(11시), ↑(12시), ↗(1시), →(3시), ↘(5시), ↓(6시), ↙(7시)
+direction = [(0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1), (1, 0), (1, -1)]
+diagonal = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
+while move:
+direct, move*times = move.popleft()
+for * in range(len(cloud)):
+x, y = cloud.popleft()
+dx, dy = direction[direct-1]
+nx, ny = x + (dx _ move_times), y + (dy _ move_times)
+cloud.append([nx % N, ny % N])
 
         for i, j in cloud:
             board[i][j] += 1
@@ -192,7 +191,7 @@ if __name__ == "__main__":
                 if 0 <= di < N and 0 <= dj < N:
                     if board[di][dj] != 0 or [di, dj] in cloud:
                         board[i][j] += 1
-        
+
         temp = deque()
         for i in range(N):
             for j in range(N):
@@ -201,11 +200,22 @@ if __name__ == "__main__":
                         board[i][j] -= 2
                         temp.append([i, j])
         cloud = temp
-    
+
     ans = 0
     for i in range(N):
         ans += sum(board[i])
     print(ans)
+
 """
 
 - 기존 코드를 보면 for 반복문을 여러번 중첩해서 사용하는 부분이 많이 나온다.
+
+- 계선 요지
+
+1. dx, dy를 매 반복마다 구할 이유는 없음
+2. 구름의 이동을 생각해보면, s칸 이동한다고 할때, `s%N`칸 이동과 결과가 동일
+   - 이를 통해서 nx, ny가 너무 큰 수가 되었다가 나머지 연산을 하는것을 방지
+3. before_cloud라는 리스트에 `before_cloud[i][j]`의 형식으로 이전의 구름을 찾는것이 더 유리
+   - 기존에는 [i, j]라는 리스트를 cloud에서 찾으려고 했기 때문에, 시간이 더 오래 걸리는 것
+   - 이를 단순 인덱싱으로 변경하여 복잡도를 줄임
+   - set을 활용하는 것도 생각했음 -> 그러나 덱과, 해싱 및 튜플로 변경하는 과정이 더 불필요하다고 판단
