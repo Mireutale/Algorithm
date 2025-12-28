@@ -12,6 +12,7 @@ def solution(dirs):
     for dir in dirs:
         dx, dy = UDRL[dir]
         nx, ny = x + dx, y + dy
+
         # 방향 숫자로 지정
         if dir == "U":
             dirp = 0
@@ -25,6 +26,7 @@ def solution(dirs):
         else:
             dirp = 3
             other_dirp = 2
+
         # 경계를 벗어나지 않으면 이동
         if -5 <= nx <= 5 and -5 <= ny <= 5:
             # 이동하지 않은 경로
