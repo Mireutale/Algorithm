@@ -2,6 +2,7 @@
 
 import json
 import sys
+import math
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()
 
@@ -10,9 +11,13 @@ def solution(progresses, speeds):
 
     # 마감일 계산
     for i in range(len(progresses)):
+        """ 구린 연산
         t = 1
         while progresses[i] + speeds[i] * t < 100:
             t += 1
+        finish[i] = t
+        """
+        t = math.ceil((100 - progresses[i]) / speeds[i])
         finish[i] = t
 
     # 출력
