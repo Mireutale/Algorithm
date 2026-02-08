@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/5.스택/BOJ_1874/1874_스택수열.py
-* Author : mireutale
-"""
+# Barkingdog/5.스택/BOJ_1874/1874_스택수열.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

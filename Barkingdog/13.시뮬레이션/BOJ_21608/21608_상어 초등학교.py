@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_21608/21608_상어 초등학교.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_21608/21608_상어 초등학교.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

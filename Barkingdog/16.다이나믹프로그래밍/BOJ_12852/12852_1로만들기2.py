@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_12852/12852_1로만들기2.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_12852/12852_1로만들기2.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

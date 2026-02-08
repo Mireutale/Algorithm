@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_14501/14501_퇴사.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_14501/14501_퇴사.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

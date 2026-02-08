@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_4883/4883_삼각그래프.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_4883/4883_삼각그래프.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

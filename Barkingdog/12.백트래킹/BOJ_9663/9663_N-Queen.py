@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_9663/9663_N-Queen.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_9663/9663_N-Queen.py
 
 """Pypy3으로 풀리는 문제
 import sys

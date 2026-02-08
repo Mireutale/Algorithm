@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_2447/2447_별찍기10.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_2447/2447_별찍기10.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

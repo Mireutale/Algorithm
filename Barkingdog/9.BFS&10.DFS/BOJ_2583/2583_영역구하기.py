@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2583/2583_영역구하기.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_2583/2583_영역구하기.py
+
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 from collections import deque

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_7562/7562_나이트의이동.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_7562/7562_나이트의이동.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()
@@ -42,4 +39,3 @@ if __name__ == "__main__":
         kp_y, kp_x = map(int, input().split()) # knight_position
         gp_y, gp_x = map(int, input().split()) # goal_position
         print(knight(chessBoard_line, kp_x, kp_y, gp_x, gp_y))
-

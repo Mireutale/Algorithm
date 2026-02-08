@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_10808/10808_알파벳개수.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_10808/10808_알파벳개수.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

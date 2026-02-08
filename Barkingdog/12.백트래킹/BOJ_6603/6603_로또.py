@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_6603/6603_로또.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_6603/6603_로또.py
 
 import sys
 from collections import deque

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_1941/1941_소문난 칠공주.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_1941/1941_소문난 칠공주.py
 
 import sys
 from collections import deque

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_15649/15649_N과 M(1).py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_15649/15649_N과 M(1).py
 
 import sys
 # import itertools import permutaions

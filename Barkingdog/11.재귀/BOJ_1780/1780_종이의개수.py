@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_1780/1780_종이의개수.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_1780/1780_종이의개수.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/5.스택/BOJ_17298/17298_오큰수.py
-* Author : mireutale
-"""
+# Barkingdog/5.스택/BOJ_17298/17298_오큰수.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

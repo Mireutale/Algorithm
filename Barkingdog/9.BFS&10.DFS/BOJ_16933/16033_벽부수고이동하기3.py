@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_16933/16033_벽부수고이동하기3.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_16933/16033_벽부수고이동하기3.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

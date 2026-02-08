@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1926/1926_그림.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_1926/1926_그림.py
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

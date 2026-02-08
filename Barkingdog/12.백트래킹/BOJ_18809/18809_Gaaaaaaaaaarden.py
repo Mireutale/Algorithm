@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_18809/18809_Gaaaaaaaaaarden.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_18809/18809_Gaaaaaaaaaarden.py
 
 import sys
 from itertools import combinations

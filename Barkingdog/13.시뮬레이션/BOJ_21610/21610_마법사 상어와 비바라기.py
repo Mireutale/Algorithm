@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_21610/21610_마법사 상어와 비바라기.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_21610/21610_마법사 상어와 비바라기.py
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

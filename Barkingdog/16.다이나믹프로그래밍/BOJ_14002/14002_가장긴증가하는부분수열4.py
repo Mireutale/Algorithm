@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_14002/14002_가장긴증가하는부분수열4.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_14002/14002_가장긴증가하는부분수열4.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_20304/20304_비밀번호제작.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_20304/20304_비밀번호제작.py
 
 import sys
 from collections import deque

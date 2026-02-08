@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_14888/14888_연산자 끼워넣기.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_14888/14888_연산자 끼워넣기.py
 
 import sys
 from math import inf

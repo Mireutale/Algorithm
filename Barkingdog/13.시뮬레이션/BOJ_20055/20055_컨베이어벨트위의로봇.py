@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_20055/20055_컨베이어벨트위의로봇.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_20055/20055_컨베이어벨트위의로봇.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

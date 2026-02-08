@@ -1,3 +1,5 @@
+# Barkingdog/12.백트래킹/BOJ_18809/18809_Gaaarden_karinarang.py
+
 # copyright: karinarang
 
 import sys

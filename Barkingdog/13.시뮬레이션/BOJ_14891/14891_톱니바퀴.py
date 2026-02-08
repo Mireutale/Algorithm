@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_14891/14891_톱니바퀴.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_14891/14891_톱니바퀴.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

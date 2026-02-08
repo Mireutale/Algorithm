@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_17478/17478_재귀함수가 뭔가요?.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_17478/17478_재귀함수가 뭔가요.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

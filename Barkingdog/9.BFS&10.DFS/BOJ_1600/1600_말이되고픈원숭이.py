@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1600/1600_말이되고픈원숭이.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_1600/1600_말이되고픈원숭이.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

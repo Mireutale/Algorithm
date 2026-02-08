@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_2302/2302_극장좌석.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_2302/2302_극장좌석.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

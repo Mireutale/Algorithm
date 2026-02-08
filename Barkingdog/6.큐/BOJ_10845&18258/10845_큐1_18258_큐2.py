@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/6.큐/BOJ_10845/10845/10845_큐1_18258_큐2.py
-* Author : mireutale
-"""
+# Barkingdog/6.큐/BOJ_10845&18258/10845_큐1_18258_큐2.py
 
 import sys
 from collections import deque

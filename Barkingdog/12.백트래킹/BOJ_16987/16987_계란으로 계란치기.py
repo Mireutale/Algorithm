@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_16987/16987_계란으로 계란치기.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_16987/16987_계란으로 계란치기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

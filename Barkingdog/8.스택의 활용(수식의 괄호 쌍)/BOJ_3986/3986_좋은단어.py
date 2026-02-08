@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_3986/3986_좋은단어.py
-* Author : mireutale
-"""
+# Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_3986/3986_좋은단어.py
 
 import sys
 from collections import deque

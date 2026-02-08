@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2667/2667_단지번호붙이기.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_2667/2667_단지번호붙이기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

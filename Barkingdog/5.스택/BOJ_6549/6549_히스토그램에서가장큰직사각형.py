@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/5.스택/BOJ_6549/6549_히스토그램에서가장큰직사각형.py
-* Author : mireutale
-"""
+# Barkingdog/5.스택/BOJ_6549/6549_히스토그램에서가장큰직사각형.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_7576/7576_토마토.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_7576/7576_토마토.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

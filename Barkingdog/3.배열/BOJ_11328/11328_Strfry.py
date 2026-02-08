@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_11328/11328_Strfry.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_11328/11328_Strfry.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()
@@ -34,6 +31,3 @@ if __name__ == "__main__":
             print("Possible")
         else:
             print("Impossible")
-
-
-

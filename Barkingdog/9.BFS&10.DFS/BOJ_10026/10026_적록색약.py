@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_10026/10026_적록색약.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_10026/10026_적록색약.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

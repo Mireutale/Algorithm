@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_15686/15686_치킨배달.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_15686/15686_치킨배달.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_1629/1629_곱셈.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_1629/1629_곱셈.py
 
 # pow(a, b, c) = (a ** b) % c 를 계산해주는 파이썬 함수
 import sys

@@ -480,3 +480,5 @@ $RECYCLE.BIN/
 *.pid       # Process ID files
 
 .vscode
+
+*tools/

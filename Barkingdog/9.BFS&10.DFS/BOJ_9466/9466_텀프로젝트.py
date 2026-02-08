@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_9466/9466_텀프로젝트.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_9466/9466_텀프로젝트.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

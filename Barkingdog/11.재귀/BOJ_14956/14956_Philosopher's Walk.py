@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_14956/14956_Philosopher's m.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_14956/14956_Philosopher's Walk.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

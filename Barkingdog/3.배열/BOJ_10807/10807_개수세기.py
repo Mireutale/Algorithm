@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_10807/10807_개수세기.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_10807/10807_개수세기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

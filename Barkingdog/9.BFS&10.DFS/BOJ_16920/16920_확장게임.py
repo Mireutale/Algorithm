@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_16920/16920_확장게임.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_16920/16920_확장게임.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

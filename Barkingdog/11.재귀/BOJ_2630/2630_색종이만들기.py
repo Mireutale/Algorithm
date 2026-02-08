@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_2630/2630_색종이만들기.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_2630/2630_색종이만들기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

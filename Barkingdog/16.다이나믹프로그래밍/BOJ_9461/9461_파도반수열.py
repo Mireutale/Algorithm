@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_9461/9461_파도반수열.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_9461/9461_파도반수열.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

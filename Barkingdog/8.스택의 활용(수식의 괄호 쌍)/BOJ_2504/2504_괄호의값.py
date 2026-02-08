@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_2504/2504_괄호의값.py
-* Author : mireutale
-"""
+# Barkingdog/8.스택의 활용(수식의 괄호 쌍)/BOJ_2504/2504_괄호의값.py
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_1759/1759_암호 만들기.py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_1759/1759_암호 만들기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

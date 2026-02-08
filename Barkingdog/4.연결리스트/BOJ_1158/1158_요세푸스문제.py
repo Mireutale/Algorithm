@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/4.연결리스트/BOJ_1158/1158_요세푸스문제.py
-* Author : mireutale
-"""
+# Barkingdog/4.연결리스트/BOJ_1158/1158_요세푸스문제.py
 
 import sys
 from collections import deque

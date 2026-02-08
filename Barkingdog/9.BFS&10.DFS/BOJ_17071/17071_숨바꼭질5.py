@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_17071/17071_숨바꼭질5.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_17071/17071_숨바꼭질5.py
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

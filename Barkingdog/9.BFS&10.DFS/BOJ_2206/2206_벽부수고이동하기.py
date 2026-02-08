@@ -1,19 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2206/2206_벽부수고이동하기.py
-* Author : mireutale
-
-TODO 
-[설계]
-
-N * M의 헹렬로 표현되는 맵
-0은 이동할 수 있는 곳, 1은 이동할 수 없는 벽이 있는 곳
-
-(1, 1) -> (N, M)의 위치로 이동, 최단경로
-
-이 때, 한개의 벽을 부수고 이동하는 것이 좀 더 경로가 짧아진다면, 
-한개 까지 부수고 이동하는게 가능
-
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_2206/2206_벽부수고이동하기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

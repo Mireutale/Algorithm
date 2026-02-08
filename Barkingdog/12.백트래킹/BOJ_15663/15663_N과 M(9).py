@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/12.백트래킹/BOJ_15663/15663_N과 M(9).py
-* Author : mireutale
-"""
+# Barkingdog/12.백트래킹/BOJ_15663/15663_N과 M(9).py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

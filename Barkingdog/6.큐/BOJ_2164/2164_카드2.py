@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/6.큐/BOJ_2164/2164_카드2.py
-* Author : mireutale
-"""
+# Barkingdog/6.큐/BOJ_2164/2164_카드2.py
+
 import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()

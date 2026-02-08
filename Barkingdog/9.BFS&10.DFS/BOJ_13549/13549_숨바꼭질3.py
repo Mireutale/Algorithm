@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_13549/13549_숨바꼭질3.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_13549/13549_숨바꼭질3.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

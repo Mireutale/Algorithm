@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_11967/11967_불켜기.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_11967/11967_불켜기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_1992/1992_쿼드트리.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_1992/1992_쿼드트리.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

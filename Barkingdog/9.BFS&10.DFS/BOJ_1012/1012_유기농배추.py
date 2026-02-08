@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_1012/1012_유기농배추.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_1012/1012_유기농배추.py
 
 import sys
 from collections import deque
@@ -61,4 +58,3 @@ if __name__ == "__main__":
                     worm_count += 1
         
         print(worm_count)
-

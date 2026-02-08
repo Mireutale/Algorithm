@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/4.연결리스트/BOJ_5397/5397_키로거.py
-* Author : mireutale
-"""
+# Barkingdog/4.연결리스트/BOJ_5397/5397_키로거.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

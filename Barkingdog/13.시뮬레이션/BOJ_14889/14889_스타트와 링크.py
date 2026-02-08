@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_14889/14889_스타트와 링크.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_14889/14889_스타트와 링크.py
 
 # import sys
 # from math import inf

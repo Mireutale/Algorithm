@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_13300/13300_방배정.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_13300/13300_방배정.py
 
 import sys
 import math
@@ -40,4 +37,3 @@ if __name__ == "__main__":
             #! 무조건 올림 ceil사용
             rooms += math.ceil(student[i][j] / K)
     print(rooms)
-

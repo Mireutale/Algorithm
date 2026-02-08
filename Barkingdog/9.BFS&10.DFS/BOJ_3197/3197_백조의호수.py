@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_3197/3197_백조의호수.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_3197/3197_백조의호수.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

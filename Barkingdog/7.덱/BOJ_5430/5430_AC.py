@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/7.덱/BOJ_5430/5430_AC.py
-* Author : mireutale
-"""
+# Barkingdog/7.덱/BOJ_5430/5430_AC.py
 
 import sys
 from collections import deque

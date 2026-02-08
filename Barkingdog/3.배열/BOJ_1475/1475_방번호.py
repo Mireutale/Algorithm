@@ -1,7 +1,5 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_1475/1475_방번호.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_1475/1475_방번호.py
+
 import sys
 import math
 input = lambda: sys.stdin.readline().rstrip()

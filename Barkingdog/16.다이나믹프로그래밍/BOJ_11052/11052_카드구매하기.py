@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_11052/11052_카드구매하기.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_11052/11052_카드구매하기.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

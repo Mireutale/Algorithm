@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/4.연결리스트/BOJ_1406/1406_에디터.py
-* Author : mireutale
-"""
+# Barkingdog/4.연결리스트/BOJ_1406/1406_에디터.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

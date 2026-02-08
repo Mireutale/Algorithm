@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_5014/5014_스타트링크.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_5014/5014_스타트링크.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

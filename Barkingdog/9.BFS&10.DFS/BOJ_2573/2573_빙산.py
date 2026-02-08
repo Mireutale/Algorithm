@@ -1,18 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_2573/2573_빙산.py
-* Author : mireutale
-
-TODO 
-[설계]
-빙산의 각 부분별 높이 정보 -> 배열의 각 칸에 양의 정수로 저장
-
-1년 마다, 동서남북 네 방향으로 붙어있는 0이 저장된 칸의 개수만큼 줄어듬
-빙산이 두 덩어리 이상으로 분리되는 최초의 시간을 구하는 프로그램
-
-반복
-    1. 빙산 덩어리 파악 -> 두 덩어리 이상이면 종료 후, year을 출력
-    2. 1년 후 빙산 모습으로 변경 -> 전부다 녹을때까지 두 덩어리 이상으로 분리되지 않는 경우 0 출력
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_2573/2573_빙산.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_1788/1788_피보나치수의확장.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_1788/1788_피보나치수의확장.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

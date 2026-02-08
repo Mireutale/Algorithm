@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/11.재귀/BOJ_11729/11729_하노이탑이동순서.py
-* Author : mireutale
-"""
+# Barkingdog/11.재귀/BOJ_11729/11729_하노이탑이동순서.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

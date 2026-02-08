@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_9328/9328_열쇠.py
-* Author : mireutale
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_9328/9328_열쇠.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/16.다이나믹프로그래밍/BOJ_11659/11659_구간합구하기4.py
-* Author : mireutale
-"""
+# Barkingdog/16.다이나믹프로그래밍/BOJ_11659/11659_구간합구하기4.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

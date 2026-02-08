@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/7.덱/BOJ_11003/11003_최솟값찾기.py
-* Author : mireutale
-"""
+# Barkingdog/7.덱/BOJ_11003/11003_최솟값찾기.py
 
 import sys
 from collections import deque

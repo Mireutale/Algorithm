@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/3.배열/BOJ_3273/3273_두수의합.py
-* Author : mireutale
-"""
+# Barkingdog/3.배열/BOJ_3273/3273_두수의합.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()
@@ -48,5 +45,3 @@ if __name__ == "__main__":
         if finds > x:
             right -= 1
     print(count)
-
-

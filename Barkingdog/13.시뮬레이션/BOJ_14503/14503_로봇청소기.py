@@ -1,7 +1,4 @@
-"""
-* CodingTest/Barkingdog/13.시뮬레이션/BOJ_14503/14503_로봇청소기.py
-* Author : mireutale
-"""
+# Barkingdog/13.시뮬레이션/BOJ_14503/14503_로봇청소기.py
 
 import sys
 from collections import deque

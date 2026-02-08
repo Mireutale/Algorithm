@@ -1,15 +1,4 @@
-"""
-* CodingTest/Barkingdog/9.BFS&10.DFS/BOJ_13913/13913_숨바꼭질4.py
-* Author : mireutale
-
-TODO 
-[설계]
-
-수빈이의 위치 N, 동생의 위치 K, (0 ~ N, K ~ 100,000)
-수빈이가 걷는다면 1초 후 -1 or +1
-수빈이가 순간이동을 하는 경우 1초 후 2배
-동생을 찾을 수 있는 가장 빠른 시간이 몇 초 후, 이동경로를 출력하시오
-"""
+# Barkingdog/9.BFS&10.DFS/BOJ_13913/13913_숨바꼭질4.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()

@@ -1,4 +1,4 @@
-# Barkingdog/13.시뮬레이션/BOJ_13335/13335_트럭.py
+# Barkingdog/13.시뮬레이션/BOJ_11559/11559_Puyo Puyo.py
 
 import sys
 from collections import deque
