@@ -4,22 +4,71 @@ import sys
 from collections import deque
 input = lambda: sys.stdin.readline().rstrip()
 
-if __name__ == "__main__":
-    n, w, l = map(int, input().split())
-    waiting_trucks = deque(map(int, input().split()))
-    bridge = deque([0] * w)
-    unit_time = 0
-    weight_on_bridge = 0
-    while bridge:
-        unit_time += 1
-        weight_on_bridge -= bridge.popleft() # 한칸 앞으로 이동
+def print_board():
+    for i in range(12):
+        print(board[i])
 
-        if waiting_trucks: # 가야할 트럭 있음
-            if weight_on_bridge + waiting_trucks[0] <= l: # 무게를 버틸 수 있다면
-                truck = waiting_trucks.popleft() # 다리위에 올라갈 트럭
-                bridge.append(truck) # 다리위에 추가
-                weight_on_bridge += truck # 무게 계산
-            else:
-                bridge.append(0)
+def check(x, y) -> list:
+    next_point = deque()
+    next_point.append([x, y])
+    visited[x][y] = True
+    puyo_list = deque([(x, y)])
+    while next_point:
+        x, y = next_point.popleft()
+        for i in range(4):
+            nx = x + dir[i][0]
+            ny = y + dir[i][1]
+            if (0 <= nx < 12) and (0 <= ny < 6) and not visited[nx][ny] and board[nx][ny] == board[x][y]:
+                visited[nx][ny] = True
+                puyo_list.append([nx, ny])
+                next_point.append([nx, ny])
     
-    print(unit_time)
+    return puyo_list
+
+# 동일한 색 4개 이상이 이어진 puyo_list의 puyo를 터트림
+def boom(puyo_list):
+    for x, y in puyo_list:
+        board[x][y] = '.'
+
+# 남은 puyo를 아래로 이동
+def down():
+    for i in range(6-1, -1, -1):
+        blank = deque()
+        for j in range(12-1, -1, -1):
+            # 가장 아래부터, 빈 공간 체크
+            if board[j][i] != '.':
+                blank.append(board[j][i])
+                board[j][i] = '.'
+        
+        high = 11
+        while blank:
+            board[high][i] = blank.popleft()
+            high -= 1
+
+if __name__ == "__main__":
+    # 뿌요 모습 저장
+    board = [list(input()) for _ in range(12)]
+    dir = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+    combo = 0
+
+    # 전체 블록 확인
+    while True:
+        delete = False
+        visited = [[False] * 6 for _ in range(12)]
+        puyo_list = deque()
+
+        for i in range(12-1, -1, -1):
+            for j in range(6-1, -1, -1):
+                if board[i][j] != '.' and not visited[i][j]:
+                    puyo_list = check(i, j)
+                    if len(puyo_list) >= 4:
+                        delete = True
+                        boom(puyo_list)
+        
+        if delete:
+            combo += 1
+            down()
+        else:
+            break
+
+    print(combo)
