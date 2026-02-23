@@ -1,0 +1,8 @@
+-- Table : ECOLI_DATA
+-- Att : ID, PARENT_ID, SIZE_OF_COLONY, DIFFERENTIATION_DATE, GENOTYPE
+
+SELECT EP.ID, COUNT(CP.ID) AS CHILD_COUNT -- 부모에 대한 자식의 수를 출력
+FROM ECOLI_DATA EP 
+LEFT JOIN ECOLI_DATA CP ON EP.ID = CP.PARENT_ID -- 부모와 자식을 하나로 묶음
+GROUP BY EP.ID -- 부모를 기준으로 묶음 -> 부모에게 속한 자식의 수를 구할 수 있음
+ORDER BY ID ASC
