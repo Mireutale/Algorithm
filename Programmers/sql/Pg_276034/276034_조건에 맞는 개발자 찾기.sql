@@ -1,0 +1,12 @@
+-- SKILLCODES
+-- NAME, CATEGORY, CODE
+-- DEVELOPERS
+-- ID, FIRST_NAME, LAST_NAME, EMAIL, SKILL_CODE
+-- 특정 스킬을 가졌는지 확인? -> 비트연산 &를 활용해서 값이 0이 아닌경우를 찾기.
+
+SELECT ID, EMAIL, FIRST_NAME, LAST_NAME
+FROM DEVELOPERS
+WHERE SKILL_CODE & (SELECT SUM(CODE)
+                    FROM SKILLCODES
+                    WHERE NAME IN ('Python', 'C#')) != 0
+ORDER BY ID ASC
