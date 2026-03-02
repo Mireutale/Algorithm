@@ -1,0 +1,16 @@
+-- 0부터 23까지 숫자를 가진 가상 테이블 생성
+WITH RECURSIVE TIME_LIST AS (
+    SELECT 0 AS HOUR -- 시작값
+    UNION ALL
+    SELECT HOUR + 1 FROM TIME_LIST -- 1씩 증가
+    WHERE HOUR < 23 -- 23까지 반복
+)
+
+-- 생성한 가상 테이블과 실제 입양 기록을 합치기
+SELECT 
+    T.HOUR,
+    COUNT(A.ANIMAL_ID) AS COUNT -- 데이터가 없으면 0으로 계산됨
+FROM TIME_LIST T
+LEFT JOIN ANIMAL_OUTS A ON T.HOUR = HOUR(A.DATETIME)
+GROUP BY T.HOUR
+ORDER BY T.HOUR;
