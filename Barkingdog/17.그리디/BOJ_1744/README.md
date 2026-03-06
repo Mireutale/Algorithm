@@ -1,6 +1,6 @@
 # 백준 1744번 - 수 묶기
 
-[문제 보러 가기](https://www.acmicpc.net/problem 1744)
+[문제 보러 가기](https://www.acmicpc.net/problem/1744)
 
 ## 문제 요약
 길이가 N인 수열이 주어졌을 때, 그 수열의 합을 구하려고 한다.

@@ -1,6 +1,6 @@
 # 백준 11501번 - 주식
 
-[문제 보러 가기](https://www.acmicpc.net/problem 11501)
+[문제 보러 가기](https://www.acmicpc.net/problem/11501)
 
 ## 문제 요약
 홍준이는 매일 3가지 중 한 행동을 한다.

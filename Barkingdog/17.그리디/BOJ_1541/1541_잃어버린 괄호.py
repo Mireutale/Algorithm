@@ -1,4 +1,4 @@
-# Barkingdog/17.그리디/BOJ_11399/11399_ATM.py
+# Barkingdog/17.그리디/BOJ_1541/1541_잃어버린 괄호.py
 
 import sys
 input = lambda: sys.stdin.readline().rstrip()
