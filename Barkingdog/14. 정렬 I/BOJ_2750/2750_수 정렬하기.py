@@ -9,17 +9,19 @@ if __name__ == "__main__":
     for _ in range(n):
         arr.append(int(input()))
     
-    # sort
+    # sort 활용
     # arr.sort()
-    # arr.sort(reverse = True)
     # for num in arr:
     #     print(num)
+
+    # ? # arr.sort(reverse = True), 내림차순 정렬
     
-    # sorted
-    # arr = sorted(arr, reverse = True)
+    # sorted 활용
     # for num in sorted(arr):
     #     print(num)
 
-    # 구현
+    # ? arr = sorted(arr, reverse = True), 내림차순 정렬
+
+    # 직접 구현
     def arr_sort(arr):
         pass
