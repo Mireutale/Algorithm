@@ -9,9 +9,11 @@
 
 ## [2] 사용한 문제집 URL  
 1. [백준 온라인 저지](https://www.acmicpc.net/)
-   1. 폴더 Barkingdog [바킹독 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog), 구버전 문제는 풀지 않았습니다.  
+    - 2026.04.28, 백준 온라인 저지 서비스 종료   
 
-   2. 폴더 Solved [solved.ac CLASS](https://solved.ac/class)
+   1. 폴더 Barkingdog, [바킹독 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog) 구버전 문제는 풀지 않았습니다.  
+
+   2. 폴더 Solved, [solved.ac CLASS](https://solved.ac/class)
 
    3. 폴더 something, 주변인에게 추천받은 문제의 풀이입니다.
 
