@@ -26,7 +26,7 @@
 ## [3] 사용한 Programming Language
 
 - ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white)
-- ![C++](https://img.shields.io/badge/C++-000000?style=flat&logo=C&logoColor=white)
+<!-- - ![C++](https://img.shields.io/badge/C++-000000?style=flat&logo=C&logoColor=white) -->
 - ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white)
 
 ## [4] 문제풀이 정리
