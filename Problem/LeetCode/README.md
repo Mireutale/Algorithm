@@ -1,6 +1,6 @@
 # LeetCode
 
-## Programming Language
+## Use Programming Language
 
 - Python
 - Java
