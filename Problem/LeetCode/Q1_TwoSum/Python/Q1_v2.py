@@ -1,5 +1,5 @@
 """
-Problem/LeetCode/1_TwoSum/1_TwoSum_v2.py
+Problem/LeetCode/Q1_TwoSum/Python/Q1_v2.py
 
 시간적 이익을 위한 딕셔너리 생성, 해당 딕셔너리에서 값을 O(n)으로 찾음
 """

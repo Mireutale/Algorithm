@@ -1,5 +1,5 @@
 """
-Problem/LeetCode/Q3898_FindTheDegreeOfEachVertex/Python/Q3898_v1.py
+Problem/LeetCode/Q3898_FindTheDegreeOfEachVertex/Python/Q3898_v2.py
 
 n을 따로 설정함, 하지만 실제로 시간의 차이는 없음
 """

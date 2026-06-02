@@ -1,5 +1,5 @@
 """
-Problem/LeetCode/1_TwoSum/1_TwoSum_v1.py
+Problem/LeetCode/Q1_TwoSum/Python/Q1_v1.py
 
 이중 for문을 활용한 완전 탐색
 """
