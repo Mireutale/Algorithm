@@ -18,3 +18,6 @@ class Solution {
         return new int[] {};
     }
 }
+
+class SolutionJava extends Solution {
+}
