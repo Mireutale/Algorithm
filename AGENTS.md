@@ -1,4 +1,4 @@
-# AGENT.md
+# AGENTS.md
 
 ## 커밋 작성 규칙
 
@@ -75,7 +75,6 @@ Problem/LeetCode/Q1_TwoSum/
   Java_v1/
     Main.java
     Solution.java
-    bin/
 ```
 
-`bin/`은 컴파일 결과물을 두는 폴더이며, 소스의 기준은 항상 `.java` 파일입니다.
+Java 컴파일 결과물인 `bin/` 폴더와 `.class` 파일은 GitHub에 포함하지 않습니다. 소스의 기준은 항상 `.java` 파일입니다.
