@@ -15,9 +15,7 @@
 
    2. 폴더 Solved, [solved.ac CLASS](https://solved.ac/class)
 
-   3. 폴더 something, 주변인에게 추천받은 문제의 풀이입니다.
-
-   4. 폴더 starcoin, solved.ac의 랜덤 마라톤 문제의 풀이입니다.
+   3. 폴더 something, 주변인에게 추천받은 문제 및 solved.ac의 랜덤 마라톤 문제의 풀이입니다.
 
 2. 폴더 Programmers, Programmers의 문제 풀이입니다.
 
