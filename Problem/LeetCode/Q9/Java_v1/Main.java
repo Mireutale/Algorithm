@@ -1,15 +1,11 @@
-import java.util.Arrays;
+package Q9.Java_v1;
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        printResult("Example 1", solution.isPalindrome(121));
-        printResult("Example 2", solution.isPalindrome(-121));
-        printResult("Example 3", solution.isPalindrome(10));
-    }
-
-    private static void printResult(boolean result) {
-        System.out.println(result);
+        System.out.println("Example 1 : " + solution.isPalindrome(121));
+        System.out.println("Example 2 : " + solution.isPalindrome(-121));
+        System.out.println("Example 3 : " + solution.isPalindrome(10));
     }
 }

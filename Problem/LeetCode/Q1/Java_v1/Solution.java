@@ -1,3 +1,5 @@
+package Q1.Java_v1;
+
 import java.util.HashMap;
 import java.util.Map;
 
